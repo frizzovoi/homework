@@ -1,0 +1,14 @@
+.some-text {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: #f1648e;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7);
+}

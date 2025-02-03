@@ -1,0 +1,29 @@
+.osns-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.p1 {
+    text-decoration: line-through;
+}
+
+.p2 {
+    text-transform: uppercase;
+    text-align: center;
+    text-indent: 40px;
+    word-wrap: nowrap;
+}
+
+.p3 {
+    word-spacing: 30px;
+    text-shadow: 1px 1px 1px #ccabf1;
+    text-decoration: overline wavy;
+}
+
+.p4 {
+    letter-spacing: 5px;
+    text-decoration: underline double;
+}
