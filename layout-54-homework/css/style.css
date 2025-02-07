@@ -48,7 +48,7 @@ body {
 /* ======================================================================= */
 
 .hero {
-    background: url("./img/Rectangle2.jpg") 10% 50% / cover no-repeat;
+    background: url("../img/Rectangle2.jpg") 10% 50% / cover no-repeat;
     padding: 120px;
 }
 
