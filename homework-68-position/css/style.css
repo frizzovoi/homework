@@ -1,0 +1,30 @@
+body {
+    background: #313030;
+    color: white;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.fixed-window {
+    background: #e7e7e7;
+    position: fixed;
+    min-height: 100px;
+    border-radius: 10px;
+
+    left: 50%;
+    bottom: 100px;
+    right: 50px;
+}
+
+.fixed-window__circle {
+    background: #d43331;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    right: -100px;
+    top: -50px;
+}

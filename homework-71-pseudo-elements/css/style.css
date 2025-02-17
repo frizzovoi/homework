@@ -1,0 +1,33 @@
+body {
+    background: #333;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    transform: translate(-115px, -10px);
+    width: 80px;
+    height: 80px;
+    background: #FA6464;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    transform: translate(35px, -10px);
+    width: 80px;
+    height: 80px;
+    background: #5E5FEE;
+    border-radius: 50%;
+    border: 4px solid white;
+}
