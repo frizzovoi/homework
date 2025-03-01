@@ -2,10 +2,12 @@ const myProfile = {
     name: 'Vladimir',
     age: 16,
     city: 'Ivanovo',
-    greet: function(personName) {
-        return `Hello ${personName}`;
+    greet: function() {
+        return `Hello ${this.name}`;
     }
-}
+};
+
+console.log(myProfile.greet());
 
 
 const users = [
