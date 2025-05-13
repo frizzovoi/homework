@@ -688,7 +688,7 @@
 }
 
 .contact__inner::after {
-    content: url(../img/decor/berries.png);
+    content: url(../img/decor/berries-2.png);
     position: absolute;
     top: 4%;
     right: 0%;
