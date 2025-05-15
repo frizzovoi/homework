@@ -6,8 +6,6 @@
 
 @import url("footer.css");
 
-.about {}
-
 .about__inner {
     display: grid;
     grid-template-columns: 1fr 1.05fr;
@@ -62,7 +60,7 @@
     position: absolute;
     inset: 5px;
     border-radius: 50%;
-    border: 1px solid --accent-color-2;
+    border: 1px solid var(--accent-color-2);
 
     opacity: 0;
     transition: var(--transition);
@@ -71,8 +69,6 @@
 .about__img-button:hover::before {
     opacity: 1;
 }
-
-.about__body {}
 
 .about__heading {
     margin-bottom: 30px;
@@ -84,10 +80,6 @@
     line-height: 0.82;
     color: var(--accent-text);
 }
-
-.about__title-text {}
-
-.about__text {}
 
 .about__grid {
     display: grid;
@@ -115,8 +107,6 @@
     justify-content: center;
 }
 
-.about__grid-text {}
-
 /* ======================================================== */
 
 .program {}
@@ -129,13 +119,9 @@
     gap: 30px 15px;
 }
 
-.program__heading {}
-
 .program__title {
     margin-bottom: 20px;
 }
-
-.program__text {}
 
 .program__tab-content {
     margin-bottom: 40px;
@@ -193,12 +179,10 @@
     margin-left: 35%;
 }
 
-.program__price {}
-
 .program__price-text {
     line-height: 1.6;
     text-transform: uppercase;
-    color: --accent-color-2;
+    color: var(--accent-color-2);
     margin-bottom: 5px;
 }
 
@@ -225,8 +209,6 @@
     display: flex;
     gap: 26px;
 }
-
-.tab-controls__item {}
 
 .tab-controls__link {
     display: block;
@@ -255,8 +237,6 @@
     display: block;
 }
 
-.accordion-list {}
-
 .accordion-list__item {
     margin-bottom: 30px;
     border: 1px solid var(--accent-color);
@@ -266,8 +246,6 @@
 .accordion-list__item:last-child {
     margin-bottom: 0;
 }
-
-.accordion-list__item--opened {}
 
 .accordion-list__control {
     padding: 40px 30px;
@@ -290,8 +268,6 @@
 .accordion-list__item--opened .accordion-list__control {
     padding-bottom: 20px;
 }
-
-.accordion-list__control-title {}
 
 .accordion-list__control-icon {
     border: 1.5px solid var(--accent-color);
@@ -345,18 +321,16 @@
 }
 
 .accordion-content__col:first-child {
-    max-width: 507px;
+    max-width: 511px;
     width: 100%;
 }
 
 .accordion-content__title {
     text-transform: uppercase;
-    color: --accent-color-2;
+    color: var(--accent-color-2);
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
-.accordion-content__list {}
 
 .accordion-content__item {
     margin-bottom: 20px;
@@ -369,7 +343,7 @@
 .accordion-content__icon {
     width: 24px;
     height: 24px;
-    border: 1px solid --accent-color-2;
+    border: 1px solid var(--accent-color-2);
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -383,8 +357,6 @@
 }
 
 /* ============================== */
-
-.gallery {}
 
 .gallery__inner {
     display: grid;
@@ -411,10 +383,6 @@
 .gallery__info {
     max-width: 380px;
 }
-
-.gallery__title {}
-
-.gallery__text {}
 
 .gallery__nav {
     display: flex;
@@ -489,12 +457,6 @@
     transform: translate(-50%, -50%);
 }
 
-.gallery__next {}
-
-.gallery__slider {}
-
-.gallery__wrapper {}
-
 .gallery__slide {
     border-radius: var(--border-radius);
     overflow: hidden;
@@ -505,8 +467,6 @@
 }
 
 /* ============================== */
-
-.testimonials {}
 
 .testimonials__inner {
     display: flex;
@@ -523,8 +483,6 @@
 .testimonials__title {
     margin-bottom: 20px;
 }
-
-.testimonials__text {}
 
 .testimonials__nav {
     display: flex;
@@ -642,10 +600,8 @@
 
 .testimonials__student-inst {
     margin: 0 auto;
-    color: --accent-color-2;
+    color:var(--accent-color-2);
 }
-
-.testimonials__quote {}
 
 .testimonials__quote span {
     display: block;

@@ -10,6 +10,11 @@
     --border-radius: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 7vh;
+}
+
 body {
     font-family: "Montserrat", "Arial", sans-serif;
     line-height: 1.5;
@@ -141,8 +146,6 @@ body {
 .modal__text {
     margin-bottom: 30px;
 }
-
-.modal__form {}
 
 .modal__form-label {
     margin-bottom: 10px;
